@@ -1,0 +1,920 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid{
+  background-color: rgba(226, 222, 222, 0.916);
+ }
+ header {
+        background-color: rgb(241, 88, 27);
+
+        overflow: hidden;
+      }
+      /* .abcc {
+        position: relative;
+      }
+      .abc {
+        position: fixed;
+        background-color: rgb(241, 88, 27);
+        top: 10;
+        left: 0px;
+      } */
+      li {
+        color: white;
+        list-style-type: none;
+        font-size: 11px;
+        padding: 0px 13px;
+      }
+      .a{
+margin-left: auto;
+      }
+      .org{
+        color: orangered;
+        font-size: 18px;
+      }
+      .gray{
+        color: gray;
+        text-decoration: line-through;
+        font-size: 14px;
+      }
+      .f{
+        font-size: 14px;
+      }
+.review-stars {
+  display: flex; /* Keeps stars in a tight line */
+  gap: 0px;      /* Force zero space between stars */
+}
+
+.star {
+  width: 16px;    /* Reduced size (change to 14px if still too big) */
+  height: 16px;
+  fill: #FFD700;
+  margin: 0;      /* Removed all margins */
+  padding: 0;     /* Removed all padding */
+  display: block; /* Removes tiny baseline gap beneath SVG */
+}
+
+        .gridd {
+            display: grid;
+          
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: 1fr 1fr;
+           
+            gap: 0; 
+        }
+
+        .f1 {
+            background-color: white;
+            height: 180px;
+        
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-right: 1px solid #ebebeb;
+            border-bottom: 1px solid #ebebeb;
+      
+
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+        .f1 img {
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .f1 p {
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.2;
+            padding: 0 5px;
+        }
+
+                           /* load */
+    .load{
+      
+      display: flex;      
+    } 
+    button{
+    
+      color: #1A9CBB;
+      border: 1px solid #1A9CBB;
+    padding: 7px 180px;
+    }           
+    
+                  /* footer */
+    
+    footer{
+  background-color: rgba(246, 243, 243, 0.97);
+
+    }              .a
+    {
+color: #0F136D;
+font-size: 16px;
+    }
+    .footer a
+    {
+      font-size: 12px;
+      font-family: NotoSans-Regular,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #0F136D;
+    } 
+    #ending img{
+      height: 28px;
+      width: 28px;
+
+    }              
+    .col-2 a{
+      margin: 0px;
+    }
+
+
+    body{
+  margin: 0px;
+  padding: 0px;
+}
+.container-fluid{
+  background-color: rgba(226, 222, 222, 0.916);
+ }
+ header {
+        background-color: rgb(241, 88, 27);
+        overflow: hidden;
+      }
+      /* .abcc {
+        position: relative;
+      }
+      .abc {
+        position: fixed;
+        background-color: rgb(241, 88, 27);
+        top: 10;
+        left: 0px;
+      } */
+      li {
+        color: white;
+        list-style-type: none;
+        font-size: 11px;
+        padding: 0px 13px;
+      }
+      .a{
+margin-left: auto;
+      }
+      .org{
+        color: orangered;
+        font-size: 18px;
+      }
+      .gray{
+        color: gray;
+        text-decoration: line-through;
+        font-size: 14px;
+      }
+      .f{
+        font-size: 14px;
+      }
+.review-stars {
+  display: flex;
+  gap: 0px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  fill: #FFD700;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+        .gridd {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: 1fr 1fr;
+            gap: 0; 
+        }
+
+        .f1 {
+            background-color: white;
+            height: 180px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-right: 1px solid #ebebeb;
+            border-bottom: 1px solid #ebebeb;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .f1 img {
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        .f1 p {
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.2;
+            padding: 0 5px;
+        }
+
+    .load{
+      display: flex;      
+    } 
+    button{
+      color: #1A9CBB;
+      border: 1px solid #1A9CBB;
+    padding: 7px 180px;
+    }           
+    
+    footer{
+  background-color: rgba(246, 243, 243, 0.97);
+    }              
+    .a{
+color: #0F136D;
+font-size: 16px;
+    }
+    .footer a{
+      font-size: 12px;
+      font-family: NotoSans-Regular,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #0F136D;
+    } 
+    #ending img{
+      height: 28px;
+      width: 28px;
+    }              
+    .col-2 a{
+      margin: 0px;
+    }
+
+/* ============================================
+   MOBILE RESPONSIVE STYLES - DARAZ APP STYLE
+   ============================================ */
+
+/* Base responsive improvements */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+  padding: 0;
+}
+
+/* Carousel responsive */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ============================================
+   TABLET STYLES (768px and below)
+   ============================================ */
+@media (max-width: 768px) {
+  
+  /* HEADER - Mobile Navigation */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .abcc {
+    display: none !important;
+  }
+  
+  .abc.logo {
+    width: 100% !important;
+    padding: 8px 15px !important;
+    flex-direction: column;
+    align-items: stretch !important;
+  }
+  
+  .abc.logo img {
+    margin: 0 auto 10px;
+    display: block;
+  }
+  
+  .search-bar {
+    padding-left: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  
+  .search-bar input {
+    width: calc(100% - 60px) !important;
+    height: 36px !important;
+    padding: 8px 12px !important;
+    font-size: 14px;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px !important;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .search-bar .fas.fa-shopping-cart {
+    padding-left: 15px !important;
+    font-size: 20px;
+  }
+  
+  /* MAIN SECTION - Carousel */
+  .main .row {
+    margin: 0 !important;
+  }
+  
+  .main .col-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .main .col-2.a {
+    display: none;
+  }
+  
+  .carousel-item img {
+    max-height: 200px;
+    width: 100%;
+  }
+  
+  /* HERO SECTION */
+  .hero {
+    padding: 10px !important;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* CATEGORIES GRID - 4 columns on tablet */
+  .gridd {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1px;
+  }
+  
+  .f1 {
+    height: 140px;
+    padding: 8px 5px;
+  }
+  
+  .f1 img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 8px;
+  }
+  
+  .f1 a {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+  
+  /* FLASH SALE SECTION */
+  .cart {
+    padding: 10px !important;
+  }
+  
+  .cart .row {
+    font-size: 20px !important;
+    margin: 0 !important;
+  }
+  
+  .cart .row .col-10 {
+    flex: 0 0 70%;
+    max-width: 70%;
+    font-size: 14px;
+  }
+  
+  .cart .row .col-2 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    font-size: 11px;
+    padding: 5px;
+  }
+  
+  /* PRODUCT CARDS - 3 per row on tablet */
+  section .row .col-2 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  section .row .col-2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  section .row .col-2 span {
+    font-size: 12px;
+  }
+  
+  .review-stars {
+    justify-content: center;
+  }
+  
+  .star {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* LOAD MORE BUTTON */
+  .load {
+    padding: 20px 10px;
+  }
+  
+  .load button {
+    padding: 12px 40px;
+    width: auto;
+    font-size: 14px;
+  }
+  
+  /* FOOTER */
+  footer .row {
+    margin: 0 !important;
+  }
+  
+  footer .col-3,
+  footer .col-2,
+  footer .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+  
+  footer ul {
+    padding-left: 0;
+  }
+  
+  footer li {
+    font-size: 11px;
+    padding: 4px 0;
+  }
+  
+  footer .a {
+    font-size: 14px;
+  }
+  
+  /* PAYMENT SECTION */
+  #payment .row {
+    margin: 0 !important;
+  }
+  
+  #payment .col-5,
+  #payment .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #payment img {
+    margin: 3px !important;
+    height: 20px;
+    width: auto;
+  }
+  
+  /* FOOTER TEXT SECTION */
+  #footer2 .row {
+    margin: 0 !important;
+  }
+  
+  #footer2 .col-2,
+  #footer2 .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-size: 10px;
+  }
+  
+  /* ENDING SECTION */
+  #ending .row {
+    margin: 0 !important;
+  }
+  
+  #ending .col-6,
+  #ending .col-4,
+  #ending .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #ending img {
+    height: 24px;
+    width: 24px;
+    margin: 5px;
+  }
+  
+  #ending span {
+    font-size: 12px;
+  }
+}
+
+/* ============================================
+   MOBILE PHONE STYLES (480px and below)
+   ============================================ */
+@media (max-width: 480px) {
+  
+  /* HEADER - Compact mobile header */
+  .abc.logo {
+    padding: 5px 10px !important;
+  }
+  
+  .abc.logo img {
+    height: 35px !important;
+    width: auto !important;
+  }
+  
+  .search-bar input {
+    height: 32px !important;
+    font-size: 13px;
+    padding: 6px 10px !important;
+  }
+  
+  .search-bar button {
+    padding: 6px 10px !important;
+  }
+  
+  .search-bar .fas.fa-search {
+    font-size: 14px;
+  }
+  
+  .search-bar .fas.fa-shopping-cart {
+    font-size: 18px;
+    padding-left: 10px !important;
+  }
+  
+  /* CAROUSEL - Smaller on mobile */
+  .carousel-item img {
+    max-height: 150px;
+  }
+  
+  /* CATEGORIES GRID - 3 columns on mobile */
+  .gridd {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .f1 {
+    height: 130px;
+    padding: 5px 3px;
+  }
+  
+  .f1 img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 5px;
+  }
+  
+  .f1 a {
+    font-size: 10px;
+    line-height: 1.1;
+  }
+  
+  /* FLASH SALE - Mobile layout */
+  .cart {
+    padding: 8px !important;
+  }
+  
+  .cart .row {
+    font-size: 18px !important;
+  }
+  
+  .cart .row .col-10,
+  .cart .row .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left;
+    padding: 5px 10px;
+  }
+  
+  .cart .row .col-2 {
+    text-align: center;
+    border: 1px solid orangered;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 3px;
+  }
+  
+  /* PRODUCT CARDS - 2 per row on mobile */
+  section .row {
+    margin: 0 !important;
+  }
+  
+  section .row .col-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 4px;
+    margin-bottom: 8px;
+  }
+  
+  section .row .col-2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  section .row .col-2 span {
+    font-size: 11px;
+    display: block;
+    margin: 3px 0;
+  }
+  
+  .org {
+    font-size: 14px !important;
+  }
+  
+  .gray {
+    font-size: 11px !important;
+  }
+  
+  .f {
+    font-size: 11px !important;
+  }
+  
+  .review-stars {
+    gap: 1px;
+  }
+  
+  .star {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* SECTION TITLES */
+  .ms-4 {
+    font-size: 18px !important;
+    margin-left: 10px !important;
+  }
+  
+  .me-4 {
+    margin-right: 10px !important;
+  }
+  
+  /* LOAD MORE BUTTON - Full width on mobile */
+  .load button {
+    padding: 10px 20px;
+    width: 90%;
+    font-size: 13px;
+  }
+  
+  /* FOOTER - Single column */
+  footer .col-3,
+  footer .col-2,
+  footer .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  footer li {
+    font-size: 10px;
+    padding: 3px 0;
+  }
+  
+  footer .a {
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  footer img {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  /* PAYMENT SECTION */
+  #payment {
+    padding: 10px;
+  }
+  
+  #payment .col-5,
+  #payment .col-2 {
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  #payment img {
+    margin: 2px !important;
+    height: 18px;
+  }
+  
+  /* FOOTER TEXT */
+  #footer2 {
+    padding: 10px;
+  }
+  
+  #footer2 .col-2,
+  #footer2 .col-3 {
+    padding: 10px;
+    font-size: 9px;
+    line-height: 1.4;
+  }
+  
+  /* ENDING SECTION */
+  #ending {
+    padding: 10px;
+  }
+  
+  #ending .col-6,
+  #ending .col-4,
+  #ending .col-2 {
+    padding: 10px;
+    font-size: 11px;
+  }
+  
+  #ending img {
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+  }
+  
+  #ending footer p {
+    font-size: 10px;
+    margin: 10px 0;
+  }
+}
+
+/* ============================================
+   EXTRA SMALL DEVICES (320px - 375px)
+   ============================================ */
+@media (max-width: 375px) {
+  
+  /* CATEGORIES - 3 columns tight */
+  .gridd {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  
+  .f1 {
+    height: 120px;
+    padding: 4px 2px;
+  }
+  
+  .f1 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .f1 a {
+    font-size: 9px;
+  }
+  
+  /* PRODUCT CARDS - Smaller */
+  section .row .col-2 {
+    padding: 3px;
+  }
+  
+  section .row .col-2 img {
+    border-radius: 3px;
+  }
+  
+  section .row .col-2 span {
+    font-size: 10px;
+  }
+  
+  .org {
+    font-size: 13px !important;
+  }
+  
+  .gray {
+    font-size: 10px !important;
+  }
+  
+  .star {
+    width: 9px;
+    height: 9px;
+  }
+  
+  /* Typography */
+  .ms-4 {
+    font-size: 16px !important;
+  }
+  
+  .load button {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+}
+
+/* ============================================
+   LANDSCAPE MODE OPTIMIZATION
+   ============================================ */
+@media (max-width: 768px) and (orientation: landscape) {
+  
+  .carousel-item img {
+    max-height: 180px;
+  }
+  
+  .gridd {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .f1 {
+    height: 120px;
+  }
+  
+  section .row .col-2 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES FOR MOBILE
+   ============================================ */
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  
+  .show-mobile {
+    display: block !important;
+  }
+  
+  /* Better spacing on mobile */
+  .p-4 {
+    padding: 10px !important;
+  }
+  
+  .m-4 {
+    margin: 10px !important;
+  }
+  
+  .ms-4 {
+    margin-left: 10px !important;
+  }
+  
+  .me-4 {
+    margin-right: 10px !important;
+  }
+  
+  .mt-4 {
+    margin-top: 15px !important;
+  }
+  
+  .mt-5 {
+    margin-top: 20px !important;
+  }
+}
+
+/* ============================================
+   TOUCH IMPROVEMENTS
+   ============================================ */
+@media (max-width: 768px) {
+  /* Larger touch targets */
+  a, button {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .f1 a {
+    min-height: auto;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better tap highlighting */
+  * {
+    -webkit-tap-highlight-color: rgba(241, 88, 27, 0.2);
+  }
+}
+
+/* ============================================
+   PERFORMANCE OPTIMIZATIONS
+   ============================================ */
+@media (max-width: 768px) {
+  /* Reduce image quality on mobile for faster loading */
+  img {
+    image-rendering: auto;
+  }
+  
+  /* Optimize animations */
+  * {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
